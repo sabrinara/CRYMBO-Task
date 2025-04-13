@@ -6,7 +6,7 @@ import UpperSection from "./UpperSection";
 
 const HowCrymboPayWork = () => {
     return (
-        <div className="flex flex-col justify-center items-center my-[140px]">
+        <div className="flex flex-col justify-center items-center my-[100px] md:my-[140px]">
            <UpperSection/>
             <BelowCard/>
         </div>

@@ -11,7 +11,7 @@ const MainFooter = () => {
                 <div className="mb-6 md:mb-0">
                     <h3 className="text-[16px] font-bold mb-6">Company</h3>
                     <p className="text-[10px] md:text-[16px]">3rd Floor 86-90 Paul Street, London, England, EC2A 4NE</p>
-                    <div className="flex justify-center mt-4 text-white">
+                    <div className="flex justify-center md:justify-start mt-4 text-white gap-2">
                         <a href="https://www.facebook.com/" ><MdOutlineMailOutline className="w-10 h-10 bg-[#040B06] rounded-full p-2"></MdOutlineMailOutline></a>
                         <a href="https://twitter.com/"><FaXTwitter className="w-10 h-10 bg-[#040B06] rounded-full  p-2"></FaXTwitter></a>
                         <a href="https://twitter.com/"><FaLinkedinIn className="w-10 h-10 bg-[#040B06] rounded-full  p-2"></FaLinkedinIn></a>

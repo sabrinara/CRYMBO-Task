@@ -47,16 +47,16 @@ const Card = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-center w-[1200px] h-[872px] gap-[60px]">
-            <h1 className="text-[60px] text-center font-semibold">
+        <div className="flex flex-col justify-center lg:w-[1200px] lg:h-[872px] md:gap-[60px]">
+            <h1 className="text-[30px] md:text-[60px] text-center font-semibold">
                 Why choose crymbo pay?
             </h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-[30px]">
                 {data.map((card) => (
 
                     <div
                         key={card.id}
-                        className=" bg-[#F5F9F7] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white transition-shadow duration-300 w-[380px] h-[358px]"
+                        className=" bg-[#F5F9F7] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white transition-shadow duration-300 md:w-[380px] md:h-[358px]"
                     >
                         <div className="relative flex justify-center items-center py-4">
                             <div

@@ -25,8 +25,8 @@ const BelowCard = () => {
         }
     ];
     return (
-        <div className="flex flex-col justify-center w-[1200px] md:my-16">
-             <div className="grid grid-cols-2 md:grid-cols-4 gap-[30px]">
+        <div className="flex flex-col justify-center lg:w-[1200px] my-10 md:my-16">
+             <div className="grid grid-cols-1 md:grid-cols-4 gap-[30px]">
                             {data.map((card) => (
             
                                 <div

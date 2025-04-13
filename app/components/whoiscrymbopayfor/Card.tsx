@@ -54,7 +54,7 @@ const Card = () => {
                         Crymbo pay
                     </button>
 
-                    <h2 className="text-[30px] md:text-[80px] font-semibold md:leading-24">Who is Crymbo Pay for?</h2>
+                    <h2 className="text-[40px] md:text-[80px] font-semibold md:leading-24">Who is Crymbo Pay for?</h2>
 
                 </div>
 
@@ -74,9 +74,9 @@ const Card = () => {
                         <p className="text-gray-600">{card.details}</p>
                     </div>
                 ))}
-                <div className="text-start mt-8">
+                <div className="text-center md:text-start mt-8 col-span-2 md:col-span-1 mx-2 md:mx-0">
                     <p className="text-lg text-[#3E4440] mb-4">Whether you're an online store, an EMI, or a financial service provider, Crymbo Pay ensures seamless transactions.</p>
-                    <div className="flex justify-start gap-4">
+                    <div className="flex justify-center md:justify-start gap-4">
                         <ButtonUi />
                     </div>
                 </div>
