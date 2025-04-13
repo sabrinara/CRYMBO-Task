@@ -3,7 +3,7 @@ import Card from "./Card";
 const WhoIsCrymboPayFor = () => {
     return (
         <div className="flex flex-col justify-center items-center my-[100px] relative">
-            <div className="relative w-[1199px] h-[849px]">
+            <div className="relative lg:w-[1199px] lg:h-[849px]">
                 <div
                     className="absolute inset-0  bg-[#F5F9F7]"
                     style={{
