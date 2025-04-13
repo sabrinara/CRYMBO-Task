@@ -6,11 +6,11 @@ import HeroRight from "./HeroRight";
 
 const Banner = () => {
     return (
-        <div className="flex justify-between items-center">
-            <div className="w-[640px]">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="md:w-[640px]">
                 <Heroleft />
             </div>
-            <div className="w-[615px]">
+            <div className=" md:w-[615px]">
                 <HeroRight />
             </div>
         </div>

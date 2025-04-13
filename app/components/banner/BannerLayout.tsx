@@ -27,7 +27,7 @@ const BannerLayout = () => {
                 }}
             ></div>
         
-            <div className="relative z-10 text-black px-10 py-5 w-[1200px] ">
+            <div className="relative z-10 md:px-10 py-5 lg:w-[1200px] ">
                 <Navbar/>
                 <Banner/>
               

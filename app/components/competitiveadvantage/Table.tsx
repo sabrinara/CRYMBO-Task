@@ -44,9 +44,9 @@ const Table = () => {
                 <table className="w-full">
                     <thead>
                         <tr className=" mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                            <th className="px-6 py-3 text-left text-[20px] font-semibold ">Feature</th>
-                            <th className="px-6 py-3 text-left text-[20px] font-semibold ">Crymbo Pay</th>
-                            <th className="px-6 py-3 text-left text-[20px] font-semibold ">Other Payment Gateways</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Feature</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Crymbo Pay</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Other Payment Gateways</th>
                         </tr>
                     </thead>
 
@@ -54,8 +54,8 @@ const Table = () => {
                     <tbody>
                         {data.map((item, index) => (
                             <tr key={index} className="border-b-4 border-white">
-                                <td className="px-6 py-4 text-[16px]  bg-[#F5F9F7]">{item.feature}</td>
-                                <td className="px-6 py-4 text-[16px]  bg-[#F5F9F7]">
+                                <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7]">{item.feature}</td>
+                                <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7]">
                                     <div className="flex justify-start items-center gap-1">
                                         <Image
                                             src="/right.png"
@@ -67,7 +67,7 @@ const Table = () => {
                                     </div>
 
                                     </td>
-                                <td className="px-6 py-4 text-[16px]  bg-[#F5F9F7]"> <div className="flex justify-start items-center gap-1">
+                                <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7]"> <div className="flex justify-start items-center gap-1">
                                         <Image
                                             src="/cross.png"
                                             alt="Cross"

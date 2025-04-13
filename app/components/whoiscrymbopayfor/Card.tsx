@@ -61,9 +61,9 @@ const Card = () => {
                 {data.map((card) => (
                     <div
                         key={card.id}
-                        className="bg-[#FCFFFD] hover:bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 mt-6"
+                        className="bg-[#FCFFFD] hover:bg-white p-2 md:p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 md:mt-6"
                     >
-                        <div className="flex items-start justify-start mb-4">
+                        <div className="flex items-start justify-center md:justify-start mb-4">
                             <Image
                                 src={card.image}
                                 alt={card.title}
