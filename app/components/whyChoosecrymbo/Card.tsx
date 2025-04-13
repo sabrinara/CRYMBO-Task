@@ -51,12 +51,12 @@ const Card = () => {
             <h1 className="text-[30px] md:text-[60px] text-center font-semibold">
                 Why choose crymbo pay?
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-[30px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-[30px]">
                 {data.map((card) => (
 
                     <div
                         key={card.id}
-                        className=" bg-[#F5F9F7] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white transition-shadow duration-300 md:w-[380px] md:h-[358px]"
+                        className=" bg-[#F5F9F7] m-6 md:m-0 p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white transition-shadow duration-300 md:w-[380px] md:h-[358px]"
                     >
                         <div className="relative flex justify-center items-center py-4">
                             <div
@@ -75,11 +75,11 @@ const Card = () => {
                                 <Image
                                     src={card.image}
                                     alt={card.title}
-                                    className="w-[137px] h-[137px] rounded-lg"
+                                    className="md:w-[137px] md:h-[137px] rounded-lg"
                                 />
                             </div></div>
                        <div className="flex flex-col justify-center gap-[2px]">
-                       <h3 className="text-[24px] font-semibold text-[#040B06] mb-2">{card.title}</h3>
+                       <h3 className="text-[20px] md:text-[24px] font-semibold text-[#040B06] mb-2">{card.title}</h3>
                        <p className="text-[16px] text-[#3E4440]">{card.details}</p>
                        </div>
                     </div>
