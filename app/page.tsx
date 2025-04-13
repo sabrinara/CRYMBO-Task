@@ -1,4 +1,5 @@
 import BannerLayout from "./components/banner/BannerLayout";
+import CompetitiveAdvantage from "./components/competitiveadvantage/CompetitiveAdvantage";
 import HowCrymboPayWork from "./components/howcrymbopaywork/HowCrymboPayWork";
 import KeyFeatures from "./components/keyfeatures/KeyFeatures";
 import WhoIsCrymboPayFor from "./components/whoiscrymbopayfor/WhoIsCrymboPayFor";
@@ -15,6 +16,7 @@ export default function Home() {
       <HowCrymboPayWork />
       <WhoIsCrymboPayFor/>
       <KeyFeatures/>
+      <CompetitiveAdvantage/>
     </div>
   );
 }
