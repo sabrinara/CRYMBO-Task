@@ -1,5 +1,6 @@
 import BannerLayout from "./components/banner/BannerLayout";
 import HowCrymboPayWork from "./components/howcrymbopaywork/HowCrymboPayWork";
+import KeyFeatures from "./components/keyfeatures/KeyFeatures";
 import WhyChooseCrymbo from "./components/whyChoosecrymbo/WhyChooseCrymbo";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
       <BannerLayout />
       <WhyChooseCrymbo />
       <HowCrymboPayWork />
+      <KeyFeatures/>
     </div>
   );
 }
