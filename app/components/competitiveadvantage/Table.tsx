@@ -40,21 +40,21 @@ const Table = () => {
                 <h2 className="text-[30px] md:text-[60px] font-bold  mb-4">Competitive advantage</h2>
             </div>
 
-            <div className="flex justify-center items-center">
-                <table className="w-full">
+            <div className="overflow-x-auto">
+            <table className="table-fixed w-full">
                     <thead>
                         <tr className=" mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Feature</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Crymbo Pay</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-[20px] font-semibold ">Other Payment Gateways</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[18px] font-semibold w-[380px]">Feature</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[18px] font-semibold w-[409px]">Crymbo Pay</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-[18px] font-semibold w-[409px]">Other Payment Gateways</th>
                         </tr>
                     </thead>
 
                     {/* Table Body */}
                     <tbody>
                         {data.map((item, index) => (
-                            <tr key={index} className="border-b-4 border-white">
-                                <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7]">{item.feature}</td>
+                            <tr key={index} className="border-b-4 border-white text-[16px]">
+                                <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7] w-[175px]">{item.feature}</td>
                                 <td className="px-4 md:px-6  py-4 text-[16px]  bg-[#F5F9F7]">
                                     <div className="flex justify-start items-center gap-1">
                                         <Image

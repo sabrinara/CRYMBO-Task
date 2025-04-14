@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-full h-[71px] rounded-full bg-[#030C0733] flex justify-between items-center">
+        <div className="w-full h-[71px] rounded-full  bg-[#030C07]/20 flex justify-between items-center">
             <div className='flex md:hidden ml-[20px]'>
                 <Image src='/asserts/logo.png' alt='image' width={149} height={35.28} />
             </div>
