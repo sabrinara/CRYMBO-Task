@@ -15,10 +15,10 @@ const HeroRight = () => {
                 </div>
             </div>
 
-            <div className="">
+            <div className="px-6">
                 <Image src='/asserts/HeroImg.png' alt='image' width={615.33} height={715.06} />
             </div>
-            <div className="flex justify-end mr-16 md:mr-28">
+            <div className="flex justify-end mr-16 md:mr-32">
                 <Image src='/asserts/shadowunderhero.png' alt='image' width={181} height={7} />
             </div>
 
