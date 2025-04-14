@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 
@@ -26,8 +27,47 @@ const BannerLayout = () => {
                     backgroundRepeat: "no-repeat",    
                 }}
             ></div>
-        
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full">
+          <div className="hidden md:flex justify-between items-center">
+            <Image
+              src="/asserts/Ellipse1.png"
+              alt="Ellipse 1"
+              width={181}
+              height={10}
+              className="opacity-70 mb-24"
+            />
+            <Image
+              src="/asserts/Ellipse2.png"
+              alt="Ellipse 2"
+              width={181}
+              height={7}
+              className="opacity-70 mb-[130px]"
+            />
+            <Image
+              src="/asserts/Ellipse3.png"
+              alt="Ellipse 3"
+              width={210}
+              height={7}
+              className="opacity-70"
+            />
+            <Image
+              src="/asserts/Ellipse4.png"
+              alt="Ellipse 4"
+              width={210}
+              height={7}
+              className="opacity-70"
+            />
+            <Image
+              src="/asserts/Ellipse5.png"
+              alt="Ellipse 5"
+              width={181}
+              height={7}
+              className="opacity-70 mb-[30px]"
+            />
+          </div>
+        </div>
             <div className="relative z-10 md:px-10 py-5 lg:w-[1200px] ">
+                
                 <Navbar/>
                 <Banner/>
               

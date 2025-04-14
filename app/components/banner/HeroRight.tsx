@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroRight = () => {
     return (
-        <div className="text-[#FFFFFF] mt-[66px] relative">
+        <div className="text-[#FFFFFF] mt-[46px] relative">
             <div className="absolute top-10 left-1/2 transform md:translate-x-1/4">
                 <div className="hidden md:flex flex-col justify-start items-start mr-14">
                     <div>
@@ -18,7 +18,7 @@ const HeroRight = () => {
             <div className="">
                 <Image src='/asserts/HeroImg.png' alt='image' width={615.33} height={715.06} />
             </div>
-            <div className="flex justify-end mr-28">
+            <div className="flex justify-end mr-16 md:mr-28">
                 <Image src='/asserts/shadowunderhero.png' alt='image' width={181} height={7} />
             </div>
 
