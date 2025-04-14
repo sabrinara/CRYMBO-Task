@@ -12,7 +12,7 @@ import WhyChooseCrymbo from "./components/whyChoosecrymbo/WhyChooseCrymbo";
 
 export default function Home() {
   return (
-    <div className="lg:w-[1600px]">
+    <div className="w-full lg:w-[1600px]">
       <BannerLayout />
       <WhyChooseCrymbo />
       <HowCrymboPayWork />

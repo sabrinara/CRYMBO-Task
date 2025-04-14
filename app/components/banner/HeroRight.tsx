@@ -4,8 +4,8 @@ import Image from "next/image";
 const HeroRight = () => {
     return (
         <div className="text-[#FFFFFF] mt-[66px] relative">
-            <div className="absolute top-10 left-1/2 transform translate-x-1/4">
-                <div className="flex flex-col justify-start items-start mr-14">
+            <div className="absolute top-10 left-1/2 transform md:translate-x-1/4">
+                <div className="hidden md:flex flex-col justify-start items-start mr-14">
                     <div>
                         <Image src='/asserts/HeroIcon.png' alt='image' width={20} height={20} />
                     </div>

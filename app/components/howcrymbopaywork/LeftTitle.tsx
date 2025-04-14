@@ -2,7 +2,7 @@
 
 const LeftTitle = () => {
     return (
-        <div className="flex flex-col justify-start items-center">
+        <div className="flex flex-col justify-start items-start md:items-center">
             <div className="md:w-[380px] md:h-[194px]">
             <button className=' py-2 px-4 rounded-full text-[16px] border border-[#040B061A]'>
             Blockchain payments
